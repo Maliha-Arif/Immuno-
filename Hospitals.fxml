@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="411.0" layoutX="-15.0" layoutY="-2.0" strokeType="INSIDE" width="616.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color green="0.22298245131969452" blue="0.43157893419265747" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <stroke>
+            <RadialGradient centerX="0.4822221967909071" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color green="0.2235294133424759" blue="0.4313725531101227" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </stroke>
+      </Rectangle>
+      <Label layoutX="197.0" layoutY="14.0" text="Available Hospitals" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="92.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Ahmad Shah Baba Hospital" wrappingWidth="136.1953125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="92.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Haji Janat Gul Islamic Hospital" wrappingWidth="120.98045349121094">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="92.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Maiwand Hospital" wrappingWidth="153.3480224609375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="354.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6. FMIC Hospital">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="92.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Dasht e Barchi 100 bed Hospital" wrappingWidth="136.19531249999994">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="357.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9.  Khair Khana Hospital" wrappingWidth="146.65313720703125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="357.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8. Isteqlal Hospital">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="92.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Chehel Sotoon Clinic" wrappingWidth="153.34802246093744">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="354.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7.Rahman Mina Hospital" wrappingWidth="153.34802246093744">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="357.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.  Afghan Red Crescent Hospital" wrappingWidth="146.65313720703125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#Back" opacity="0.71" prefHeight="26.0" prefWidth="90.0" style="-fx-background-color: transparent;" text="Back" textFill="#1b0c0c" />
+   </children>
+</AnchorPane>

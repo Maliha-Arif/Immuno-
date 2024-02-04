@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="627.0" prefWidth="469.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <ImageView fitHeight="138.0" fitWidth="102.0" layoutX="42.0" layoutY="46.0" opacity="0.75" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../images/GettyImages.jpg" />
+      </image>
+   </ImageView>
+   <Label layoutX="183.0" layoutY="44.0" prefHeight="74.0" prefWidth="150.0" text="Register Here" textFill="#072684">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Label>
+   <Circle fill="#0364b9" layoutX="59.0" layoutY="37.0" opacity="0.84" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fill="#074f96" layoutX="43.0" layoutY="137.0" opacity="0.53" radius="37.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#02519c" layoutX="159.0" layoutY="114.0" opacity="0.55" radius="24.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#003061" layoutX="159.0" layoutY="44.0" opacity="0.73" radius="37.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#012696" layoutX="135.0" layoutY="158.0" opacity="0.55" radius="14.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#072684" layoutX="101.0" layoutY="144.0" opacity="0.55" radius="8.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#001a69" layoutX="445.0" layoutY="618.0" opacity="0.71" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+   <Circle fill="#072684" layoutX="444.0" layoutY="570.0" opacity="0.82" radius="14.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#0080ff" layoutX="394.0" layoutY="570.0" opacity="0.55" radius="24.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#072684" layoutX="410.0" layoutY="602.0" opacity="0.55" radius="8.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#0364b9" layoutX="380.0" layoutY="624.0" opacity="0.55" radius="14.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#072684" layoutX="410.0" layoutY="624.0" opacity="0.55" radius="8.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#0080ff" layoutX="428.0" layoutY="538.0" opacity="0.41" radius="8.0" stroke="#072684" strokeType="INSIDE" />
+   <TextField fx:id="fname" layoutX="183.0" layoutY="126.0" promptText="First Name" />
+   <TextField fx:id="lname" layoutX="183.0" layoutY="174.0" promptText="Last Name" />
+   <TextField fx:id="Rusername" layoutX="181.0" layoutY="220.0" promptText="Username" />
+   <TextField fx:id="email" layoutX="183.0" layoutY="262.0" promptText="Email" />
+   <TextField fx:id="age" layoutX="181.0" layoutY="358.0" promptText="Age" />
+   <Button fx:id="registerbutton" layoutX="167.0" layoutY="487.0" mnemonicParsing="false" onAction="#Registeration" prefHeight="30.0" prefWidth="178.0" style="-fx-background-color: #072684; -fx-background-radius: 190;" text="Register" textFill="WHITE" />
+   <PasswordField fx:id="rpass" layoutX="183.0" layoutY="315.0" promptText="Password" />
+   <Circle fill="#072684" layoutX="347.0" layoutY="602.0" opacity="0.95" radius="32.0" stroke="#072684" strokeType="INSIDE" />
+   <Circle fill="#072684" layoutX="302.0" layoutY="624.0" opacity="0.95" radius="15.0" stroke="#072684" strokeType="INSIDE" />
+   <TextField fx:id="pnumber" layoutX="181.0" layoutY="406.0" promptText="Phone number" />
+   <TextField fx:id="gender" layoutX="181.0" layoutY="444.0" promptText="Gender" />
+   <Button fx:id="registerback" layoutX="-20.0" layoutY="29.0" mnemonicParsing="false" onAction="#registerback" opacity="0.71" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: transparent;" text="Back" textFill="#1b0c0c" />
+
+</AnchorPane>
